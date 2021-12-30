@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__top header-top">
+          <div class="heder-top__languages">
+            <p class="header-top__main-language">Русский</p>
+          </div><a class="header-top__seeker" href="#">Соискателю</a>
+        </div>
+        <div class="header__main"><a class="header__logo" href="#">
+            <picture>
+              <source srcset="img/logo.svg" media="(min-width: 767px)"><img src="img/logo-mob.svg" alt="">
+            </picture><span>Для Работодателей</span></a>
+          <ul class="header__menu-list header-menu__list">
+            <li class="header-menu__item"><a class="header-menu__item-link" id="rezume" href=""><img src="img/search.svg" alt=""><span>Резюме </span></a></li>
+            <li class="header-menu__item"><a class="header-menu__item-link" id="vacancies" href=""><img src="img/plus.svg" alt=""><span>Вакансия</span></a></li>
+            <li class="header-menu__item"><a class="header-menu__item-link" id="reactor" href=""><img src="img/company.svg" alt=""><span>Реактор </span></a></li>
+            <li class="header-menu__item header-menu__item-bell"><a class="header-menu__item-link header-menu__item-link--bell" href=""><img src="img/bell.svg" alt=""><span>99+</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <script src="js/scripts.js"> </script>
+  </body>
+</html>
+
+<section class="vacancies empty">
+  <div class="container"><a class="vacancies__personal-link" href="">Личный раздел</a>
+    <h1 class="page__title vacancies__title">Вакансии и отклики<a class="vacancies__inf-icon" href=""><img src="img/information-icon.svg" alt=""/></a></h1>
+    <div class="vacancies__information vacancies-information">
+      <p>У вас еще нет вакансий.</p>
+      <p>Чтобы начать активный поиск сотрудников, создайте ваши вакансии. Помните! Большинство соискателей не размещают резюме на сайте, а отправляют их прямо на найденные вакансии. Поэтому размещайте вакансии, и вы значительно увеличите шансы найти сотрудника.</p>
+    </div>
+  </div>
+  <div class="vacancies__options">
+    <div class="container"> 
+      <button class="vacancies__create-btn">Создать вакансию</button>
+      <div class="vacancies__sorting">
+        <div class="vacancies__available vacancies-available">Доступна <span>21 из 630 публикаций</span>
+          <div class="vacancies-available__list">
+            <div class="vacancies-available__item">
+              <div class="vacancies-available__name-date">
+                <div class="vacancies-available__name">Standard Plus возобновляемая</div>
+                <div class="vacancies-available__date">до 14.03.2020</div>
+              </div>
+              <div class="vacancies-available__count">11 из 311</div>
+            </div>
+            <div class="vacancies-available__item">
+              <div class="vacancies-available__name-date">
+                <div class="vacancies-available__name">Premium возобновлемая</div>
+                <div class="vacancies-available__date">до 14.03.2020</div>
+              </div>
+              <div class="vacancies-available__count">5</div>
+            </div>
+            <div class="vacancies-available__item">
+              <div class="vacancies-available__name-date">
+                <div class="vacancies-available__name">Premium</div>
+                <div class="vacancies-available__date">до 14.03.2020</div>
+              </div>
+              <div class="vacancies-available__count">309</div>
+            </div>
+            <div class="vacancies-available__item">
+              <div class="vacancies-available__name-date">
+                <div class="vacancies-available__name">Анонимная возобновляемая</div>
+                <div class="vacancies-available__date">до 14.03.2020</div>
+              </div>
+              <div class="vacancies-available__count">5</div>
+            </div>
+            <div class="vacancies-available__item">
+              <ul>
+                <li><a href="">Подробнее о публикациях</a></li>
+                <li><a href="">Купить публикации от 349 грн</a></li>
+                <li><a href="">Купить пакеты услуг (публикации и доступ к базе резюме) от 390 грн</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer"> 
+  <div class="container">
+    <div class="footer__languages">
+      <p class="footer__main-language">Русский</p>
+    </div>
+    <ul class="footer__menu footer-menu">
+      <li class="footer-menu__item"><a class="footer-menu__link" href="">Услуги сайта</a></li>
+      <li class="footer-menu__item"><a class="footer-menu__link" href="">О нас</a></li>
+      <li class="footer-menu__item"><a class="footer-menu__link" href="">Контакты</a></li>
+      <li class="footer-menu__item"><a class="footer-menu__link" href="">Новости сайта</a></li>
+      <li class="footer-menu__item"><a class="footer-menu__link" href="">Ресурсы</a></li>
+      <li class="footer-menu__item"><a class="footer-menu__link" href="">Условия использования</a></li>
+    </ul>
+    <div class="footer__application-seeker"><a class="footer__application" href="#"><img src="img/apple.svg" alt=""/></a><a class="footer__application" href="#"><img src="img/google.svg" alt=""/></a><a class="footer__seeker" href="#">Соискателю</a></div>
+    <div class="footer__copyright">© 2006–2016 Work.ua. Сайт поиска <br>работы №1 в Украине.</div>
+    <div class="footer__bottom footer-bottom">
+      <div class="footer-bottom__madein">Сделано в компании «<a href="">Реактор</a>».</div>
+      <ul class="footer-bottom__list">
+        <li class="footer-bottom__item"><a class="footer-bottom__link" href="">Образование</a></li>
+        <li class="footer-bottom__item"><a class="footer-bottom__link" href="">Тренинги</a></li>
+        <li class="footer-bottom__item"><a class="footer-bottom__link" href="">Typing tutor</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
